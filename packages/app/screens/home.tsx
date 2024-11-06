@@ -2,8 +2,8 @@ import { Text } from "ui/text";
 import { View } from "ui/view";
 export function Home() {
   return (
-    <View className="flex flex-1 justify-center items-center">
-      <Text className="text-base">
+    <View className="flex items-center justify-center flex-1 dark:bg-slate-500">
+      <Text className="text-base dark:text-white">
         Edit{" "}
         <Text className="text-base font-bold">
           {" "}
